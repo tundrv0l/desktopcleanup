@@ -16,16 +16,15 @@ $ cd ../path/desktopcleanup
 $ ./destkopcleanup
 ```
 Once the script is installed, you can call it via command line, or you can throw it into Window's Task Scheduler. 
-
--1. Type 'Task Scheduler' into the Windows Search Bar.
--2. Click Actions>Create Task
--3. Name the Task
--4. From the task screen, click the 'Actions' Tab, Click 'New'. Ensure the 'Action' box is 'Start a Program'
--5. Find where your python executable is located and copy it. (Can be done by typing 'where python3' in the terminal).
--6. Copy the path to your python executable to the 'Program/script' box in the 'New Action' window.
--7. From where you cloned desktopcleanup: Copy the path to the repository.
--8. In the 'New Action' Window: Copy the path to the repository into 'Start in (Optional)', and in 'Add arguements (optional)' put 'desktopcleanup.py'. Click Ok
--9. Now that the task is set up, in the same window you can go to 'Triggers' > New to set up the event on which you would like the script to run; I have mine set up for every time the system starts up.
+* Type 'Task Scheduler' into the Windows Search Bar.
+* Click Actions>Create Task
+* Name the Task
+* From the task screen, click the 'Actions' Tab, Click 'New'. Ensure the 'Action' box is 'Start a Program'
+* Find where your python executable is located and copy it. (Can be done by typing 'where python3' in the terminal).
+* Copy the path to your python executable to the 'Program/script' box in the 'New Action' window.
+* From where you cloned desktopcleanup: Copy the path to the repository.
+* In the 'New Action' Window: Copy the path to the repository into 'Start in (Optional)', and in 'Add arguements (optional)' put 'desktopcleanup.py'. Click Ok
+* Now that the task is set up, in the same window you can go to 'Triggers' > New to set up the event on which you would like the script to run; I have mine set up for every time the system starts up.
 
 
 Please let me know what you think and enjoy!
